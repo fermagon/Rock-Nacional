@@ -1,0 +1,55 @@
+.logo {
+  width: 850px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #3e3e3e;
+}
+
+main {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bloco-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffed00;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.imagem-conteudo {
+  width: 250px;
+  height: auto;
+}
+
+.texto-faixa {
+  color: #0b0b0b;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.destaque-nome {
+  background-color: #e31e44;
+  color: #ffffff;
+  padding: 2px 8px;
+}
+
+footer { 
+    text-align: center; 
+    background-color: #0b0b0b; 
+    color: white; 
+    padding: 10px; 
+}
