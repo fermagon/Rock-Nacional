@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Nacional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+            <nav class="menu">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="estilos.html">Estilos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+    <main class="container-contato">
+        <form class="formulario-contato" action="#" method="post">
+            <fieldset>
+
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="campo">
+                    <label for="assunto">Assunto</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="" disabled selected>Selecione uma opção</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                </div>
+            </fieldset>
+
+            <button type="submit" class="botao-enviar">Enviar mensagem</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fernando Martins. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

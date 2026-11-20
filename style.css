@@ -1,8 +1,40 @@
+header {
+    text-align: center;
+    padding-top: 20px;
+}
+
 .logo {
   width: 850px;
   height: auto;
   display: block;
   margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.menu {
+    background-color: #0b0b0b;
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 10px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.menu a:hover {
+    background-color: #555;
 }
 
 body {
@@ -45,6 +77,134 @@ h1 {
   background-color: #e31e44;
   color: #ffffff;
   padding: 2px 8px;
+}
+
+.container-estilos {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: sans-serif;
+}
+
+.tabela-responsiva {
+    overflow-x: auto;
+}
+
+.tabela-estilos {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    color: #0b0b0b;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.tabela-estilos th {
+    background-color: #ffffff;
+    color: #0b0b0b;
+    font-weight: bold;
+    text-align: left;
+    padding: 16px;
+    border-bottom: 2px solid #0b0b0b;
+}
+
+.tabela-estilos td {
+    padding: 16px;
+    border-bottom: 1px solid #0b0b0b;
+    vertical-align: top;
+}
+
+.tabela-estilos th:nth-child(1),
+.tabela-estilos td:nth-child(1) {
+    width: 14%;
+}
+
+.tabela-estilos th:nth-child(2),
+.tabela-estilos td:nth-child(2) {
+    width: 18%;
+}
+
+.tabela-estilos th:nth-child(3),
+.tabela-estilos td:nth-child(3) {
+    width: 40%;
+}
+
+.tabela-estilos th:nth-child(4),
+.tabela-estilos td:nth-child(4) {
+    width: 28%;
+}
+
+.tabela-estilos tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.container-contato {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: sans-serif;
+}
+
+.formulario-contato fieldset {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+}
+
+.formulario-contato legend {
+    color: #e31e44;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    outline: none;
+    border-color: #e31e44;
+}
+
+.botao-enviar {
+    background-color: #e31e44;
+    color: #ffffff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao-enviar:hover {
+    background-color: #6e161b;
 }
 
 footer { 
