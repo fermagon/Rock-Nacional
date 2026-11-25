@@ -86,6 +86,13 @@ h1 {
     font-family: sans-serif;
 }
 
+.tabela-estilos caption {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
 .tabela-responsiva {
     overflow-x: auto;
 }
@@ -205,6 +212,24 @@ h1 {
 
 .botao-enviar:hover {
     background-color: #6e161b;
+}
+
+.link-interno {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.link-interno a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.link-interno a:hover {
+    opacity: 0.8;
 }
 
 footer { 
