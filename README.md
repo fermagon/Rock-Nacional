@@ -3,7 +3,7 @@
 Projeto de HTML/CSS/Javascript desenvolvido para a disciplina de Linguagem de Script para Web (IFTM - Campus Uberaba Parque Tecnológico, 2026).
 
 - Tema escolhido: Rock Nacional
-- Site publicado (Páginas GitHub): [https://fermagon.github.io/Rock-Nacional/]
+- Site publicado (Páginas GitHub): https://fermagon.github.io/Rock-Nacional/
 
 ## Páginas do Projeto
 * **Início (`index.html`):** Página principal do site.
